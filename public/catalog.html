@@ -1,0 +1,457 @@
+i<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Laravel</title>
+
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Khand:300,400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <!-- Styles -->
+    <link href="css/styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="app">
+        <header>
+            <nav role="navigation" class="nav-bar">
+                <div class="brand"><a href="/"><i class="fas fa-gamepad"></i>Gamer<span class="brand-right">Horizon</span></a></div>
+                <div class="navbar-items">
+                    <div class="nav-item logout">
+                        <label for="logout-toggle">
+                            John Doe <i class="fas fa-caret-down"></i></label>
+                        <input type="checkbox" id="logout-toggle">
+                        <div id="logout-dropdown">
+                            <a href="">
+                               Logout 
+                           </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="toggle-menu">
+                    <label for="menu-toggle"><i class="fas fa-bars"></i></label>
+                    <input type="checkbox" id="menu-toggle">
+                </div>
+            </nav>
+        </header>
+        <main class="main">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-9">
+                        <h1 class="title-section">
+                            Catalog
+                        </h1>
+                        <div class="gallery-pagination">
+                            <ul role="navigation" class="pagination">
+                                <li aria-disabled="true" aria-label="« Previous" class="page-item disabled"><span aria-hidden="true" class="page-link">‹</span></li>
+                                <li aria-current="page" class="page-item active"><span class="page-link">1</span></li>
+                                <li class="page-item"><a href="#" class="page-link">2</a></li>
+                                <li class="page-item"><a href="#" rel="next" aria-label="Next »" class="page-link">›</a></li>
+                            </ul>
+                        </div>
+                        <div class="game-gallery">
+                            <div class="game-item">
+                                <div class="game-vignette">
+                                    <a href="product.html"><img src="images/1.jpg"></a>
+                                    <div class="game-price bg-primary"><span class="value">56,89 €</span></div>
+                                </div>
+                                <div class="game-description"><span class="game-name">Sekiro Shadows Die Twice  Sekiro Shadows Die Twic</span></div>
+                            </div>
+                            <div class="game-item">
+                                <div class="game-vignette">
+                                   <a href="product.html"><img src="images/2.jpg"></a>
+                                    <div class="game-price bg-primary"><span class="value">56,89 €</span></div>
+                                </div>
+                                <div class="game-description"><span class="game-name">Sekiro Shadows Die Twice  Sekiro Shadows Die Twic</span></div>
+                            </div>
+                            <div class="game-item">
+                                <div class="game-vignette">
+                                    <a href="product.html"><img src="images/3.jpg"></a>
+                                    <div class="game-price bg-primary"><span class="value">56,89 €</span></div>
+                                </div>
+                                <div class="game-description"><span class="game-name">Sekiro Shadows Die Twice  Sekiro Shadows Die Twic</span></div>
+                            </div>
+                            <div class="game-item">
+                                <div class="game-vignette">
+                                    <a href="product.html"><img src="images/4.jpg"></a>
+                                    <div class="game-price bg-primary"><span class="value">56,89 €</span></div>
+                                </div>
+                                <div class="game-description"><span class="game-name">Sekiro Shadows Die Twice  Sekiro Shadows Die Twic</span></div>
+                            </div>
+                            <div class="game-item">
+                                <div class="game-vignette">
+                                    <a href="product.html"><img src="images/5.jpg"></a>
+                                    <div class="game-price bg-primary"><span class="value">56,89 €</span></div>
+                                </div>
+                                <div class="game-description"><span class="game-name">Sekiro Shadows Die Twice  Sekiro Shadows Die Twic</span></div>
+                            </div>
+                            <div class="game-item">
+                               <div class="game-vignette">
+                                    <a href="product.html"><img src="images/6.jpg"></a>
+                                    <div class="game-price bg-primary"><span class="value">56,89 €</span></div>
+                                </div>
+                                <div class="game-description"><span class="game-name">Sekiro Shadows Die Twice  Sekiro Shadows Die Twic</span></div>
+                            </div>
+                            <div class="game-item">
+                                <div class="game-vignette">
+                                    <a href="product.html"><img src="images/7.jpg"></a>
+                                    <div class="game-price bg-primary"><span class="value">56,89 €</span></div>
+                                </div>
+                                <div class="game-description"><span class="game-name">Sekiro Shadows Die Twice  Sekiro Shadows Die Twic</span></div>
+                            </div>
+                            <div class="game-item">
+                                <div class="game-vignette">
+                                    <a href="product.html"><img src="images/8.jpg"></a>
+                                    <div class="game-price bg-primary"><span class="value">56,89 €</span></div>
+                                </div>
+                                <div class="game-description"><span class="game-name">Sekiro Shadows Die Twice  Sekiro Shadows Die Twic</span></div>
+                            </div>
+                            <div class="game-item">
+                                <div class="game-vignette">
+                                    <a href="product.html"><img src="images/10.jpg"></a>
+                                    <div class="game-price bg-primary"><span class="value">56,89 €</span></div>
+                                </div>
+                                <div class="game-description"><span class="game-name">Sekiro Shadows Die Twice  Sekiro Shadows Die Twic</span></div>
+                            </div>
+                        </div>
+                        <div class="gallery-pagination">
+                            <ul role="navigation" class="pagination">
+                                <li aria-disabled="true" aria-label="« Previous" class="page-item disabled"><span aria-hidden="true" class="page-link">‹</span></li>
+                                <li aria-current="page" class="page-item active"><span class="page-link">1</span></li>
+                                <li class="page-item"><a href="#" class="page-link">2</a></li>
+                                <li class="page-item"><a href="#" rel="next" aria-label="Next »" class="page-link">›</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+</body>
+
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+</html>

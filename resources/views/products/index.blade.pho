@@ -1,0 +1,43 @@
+@extends('layouts.gamerhorizon')
+
+@section('content')
+<div class="container">
+   <div class="row justify-content-center">
+      <div class="col-9">
+         <h1 class='title-section'>
+            Catalog
+         </h1>
+         <div class="gallery-pagination">
+            {{ $products->links() }}
+         </div>
+         <div class="game-gallery">
+             @foreach ($products as $product)
+             <div>
+                 AAAA
+             </div>
+             @endforeach
+         </div>
+         <div class="game-gallery">
+            @foreach ($products as $product)
+            <div class="game-item">
+               <div class="game-vignette">
+                  <a href="products/{{ $product->id }}">
+                     <img class="game-img" src="{{ $product->url}}"/>
+                  </a>
+                  <div class="game-price">
+                     <span class="value">{{ $product->price }} €</span>
+                  </div>
+               <div>
+               <div class="game-description">
+                   <span class="game-name">{{ $product->name}}</span>
+               </div>
+             </div>
+             @endforeach
+         </div>
+         <div class="gallery-pagination">
+            {{ $products->links() }}
+         </div>
+      </div>
+   </div>
+</div>
+@endsection

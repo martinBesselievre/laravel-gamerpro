@@ -1,0 +1,168 @@
+body {
+    font-family: Khand,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    color: #333;
+    background-color: #EFEFEF;
+}
+/* Misc */
+.uppercase { 
+    text-transform: uppercase;
+}
+/* Home page video -------------------------------------*/
+.video-playing {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* Header navbar styles --------------------------------*/
+.navbar-laravel {
+    background-color: #333;
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.04);
+    box-shadow: 0 2px 4px rgba(0,0,0,.04);
+}
+.brand-logo {
+    color:#fff;
+    font-size:2rem;
+    margin-right: 0.5rem;
+}
+.brand-left {
+    color:#fff;
+    font-size:2rem; 
+    font-weight:500;
+}
+.brand-right {
+    color:#ffc000;
+    font-size:2rem;
+    font-weight:300;
+}
+.navbar-light .navbar-nav .nav-link {
+   color:#fff;
+   font-size:1.2rem;
+   text-transform:uppercase;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+   color:#ffc000;
+   font-size:1.2rem;
+   text-transform:uppercase;
+}
+.dropdown-toggle {
+    font-size: 1.2rem;
+    color:white;
+}
+.dropdown-item {
+    text-transform:uppercase;
+    font-size: 1.2rem;
+}
+/* Title styles ----------------------------------------*/
+.title-section {
+    margin-top: 30px;
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 30px;
+    text-align:center;
+    text-transform:uppercase;
+}
+/* Shop styles ------------------------------------------*/
+ul.game-gallery {
+   list-style:none;
+   display:flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content:space-between;
+}
+@media(max-width:970px){}
+ul.game-gallery {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+li.game-item {
+   display:flex;
+   flex-direction: row;
+   justify-content:center;
+}
+div.game-vignette {
+    display: block;
+    width: 235px;
+    margin-bottom: 20px;
+}
+div.game-vignette img {
+    width: 100%;
+    height: auto;
+}
+div.game-vignette .game-price {
+    position: relative;
+    top: -20;
+    padding: 3px 10px 0;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #3490dc;
+    width: 70px;
+    margin-top:-30px;
+}
+div.game-desc {
+    font-size: 1rem;
+    font-weight: 500;
+    height: 65px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color: #fff;
+}
+div.gallery-pagination {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+/* Form styles */
+.card {
+    font-size: 1.1rem;
+}
+.card-header {
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color:#FFCC00;
+}
+label {
+   font-weight: 400;
+}
+.btn-primary {
+   font-size: 1.5rem;
+   font-weight: 500;
+   text-transform:uppercase;
+   background-color:#FFCC00;
+   color: #333;
+   border-color:#FFCC00;
+}
+.btn-primary:hover 
+{
+   background-color:#333;
+   color: #ffcc00;
+}
+.btn-link {
+   font-size:1rem;
+}
+A
+A
+A
+A
+A
+} 
+A
+}
+A
+
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+x
